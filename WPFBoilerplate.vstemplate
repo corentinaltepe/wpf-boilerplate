@@ -4,15 +4,16 @@
       <Name>WPF Boilerplate</Name>
       <Description>A WPF Project boilerplate including a test project will all necessary components to start the development of a WPF app quickly.</Description>
       <Icon>__TemplateIcon.ico</Icon>
-      <ProjectType>VisualBasic</ProjectType>
+      <DefaultName>WpfApp</DefaultName>
+      <ProjectType>CSharp</ProjectType>
     </TemplateData>
     <TemplateContent>
         <ProjectCollection>
-            <ProjectTemplateLink>
-                Project1\Project1.vstemplate
+            <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+                MyProject\MyProject.vstemplate
             </ProjectTemplateLink>
-            <ProjectTemplateLink>
-                Project2\Project2.vstemplate
+            <ProjectTemplateLink ProjectName="$safeprojectname$.Test" CopyParameters="true">
+                MyProject.Test\MyProject.Test.vstemplate
             </ProjectTemplateLink>
         </ProjectCollection>
     </TemplateContent>
