@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MyProject.Test
+namespace $safeprojectname$
 {
     [TestClass]
     public class MainViewModelTest : TestBase
