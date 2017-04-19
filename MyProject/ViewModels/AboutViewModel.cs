@@ -32,7 +32,7 @@ namespace $safeprojectname$.ViewModels
                 // var ver2 = typeof(Assembly1.ClassOfAssembly1).Assembly.GetName().Version;
                 // var ver3 = typeof(Assembly2.ClassOfAssembly2).Assembly.GetName().Version;
 
-                return "MyProject v" + version1.ToString();
+                return "$safeprojectname$ v" + version1.ToString();
             }
         }
     }
