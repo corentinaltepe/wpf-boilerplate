@@ -1,0 +1,19 @@
+<VSTemplate Version="2.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+      <Name>WPF Boilerplate</Name>
+      <Description>A WPF Project boilerplate including a test project will all necessary components to start the development of a WPF app quickly.</Description>
+      <Icon>__TemplateIcon.ico</Icon>
+      <ProjectType>VisualBasic</ProjectType>
+    </TemplateData>
+    <TemplateContent>
+        <ProjectCollection>
+            <ProjectTemplateLink>
+                Project1\Project1.vstemplate
+            </ProjectTemplateLink>
+            <ProjectTemplateLink>
+                Project2\Project2.vstemplate
+            </ProjectTemplateLink>
+        </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>
