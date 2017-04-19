@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Name>WPF-App</Name>
-    <Description>WPF Boilerplate project for a professional application</Description>
+    <Description>WPF project for a professional application. Application contains a menu and about dialog. Full MVVM structure.</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>

@@ -2,7 +2,7 @@
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     <TemplateData>
       <Name>WPF Boilerplate</Name>
-      <Description>A WPF Project boilerplate including a test project will all necessary components to start the development of a WPF app quickly.</Description>
+      <Description>WPF Boilerplate including a WPF project and a test project with all necessary components to start the development of a WPF app quickly.</Description>
       <Icon>__TemplateIcon.ico</Icon>
       <DefaultName>WpfApp</DefaultName>
       <ProjectType>CSharp</ProjectType>
