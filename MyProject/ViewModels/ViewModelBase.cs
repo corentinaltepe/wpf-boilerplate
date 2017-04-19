@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyProject.ViewModels
+namespace $safeprojectname$.ViewModels
 {
     /// <summary>
     /// Implements INotifyPropertyChanged for all ViewModel

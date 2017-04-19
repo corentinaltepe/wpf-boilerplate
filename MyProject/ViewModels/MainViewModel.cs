@@ -10,10 +10,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Xml.Linq;
-using MyProject.Views;
-using MyProject.Utils;
+using $safeprojectname$.Views;
+using $safeprojectname$.Utils;
 
-namespace MyProject.ViewModels
+namespace $safeprojectname$.ViewModels
 {
     class MainViewModel : ViewModelBase
     {

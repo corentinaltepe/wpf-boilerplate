@@ -5,10 +5,10 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
-using MyProject.ViewModels;
-using MyProject.Views;
+using $safeprojectname$.ViewModels;
+using $safeprojectname$.Views;
 
-namespace MyProject
+namespace $safeprojectname$
 {
     /// <summary>
     /// Interaction logic for App.xaml

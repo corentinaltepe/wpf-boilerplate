@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace MyProject.Utils
+namespace $safeprojectname$.Utils
 {
     public class RelayCommand : ICommand
     {
