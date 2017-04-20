@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>ProjectTemplate1</Name>
-    <Description>ProjectTemplate1</Description>
+    <Name>WpfApp</Name>
+    <Description>WPF Project with pure MVVM sturcture. Includes base classes for a quick start. Interface includes a menu and ab about dialog.</Description>
     <Icon>ProjectTemplate1.ico</Icon>
     <ProjectType>CSharp</ProjectType>
     <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>2cf3442e-d790-40f9-a6fb-b60018218b54</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>ProjectTemplate1</DefaultName>
+    <DefaultName>WpfApp</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>

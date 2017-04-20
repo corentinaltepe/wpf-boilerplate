@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTemplate", "WpfTemplate\WpfTemplate.csproj", "{5976BBB0-F9EF-412B-9DB9-EBDDE569B734}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSIX", "VSIX\VSIX.csproj", "{43AE6D24-EF11-4BB0-A35F-0CF29786919D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Templates", "WPF.Templates\WPF.Templates.csproj", "{43AE6D24-EF11-4BB0-A35F-0CF29786919D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

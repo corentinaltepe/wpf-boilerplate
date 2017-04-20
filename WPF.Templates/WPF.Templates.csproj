@@ -13,8 +13,8 @@
     <ProjectGuid>{43AE6D24-EF11-4BB0-A35F-0CF29786919D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>VSIX</RootNamespace>
-    <AssemblyName>VSIX</AssemblyName>
+    <RootNamespace>WPF.Templates</RootNamespace>
+    <AssemblyName>WPF.Templates</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
@@ -53,10 +53,6 @@
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="index.html" />
-    <Content Include="stylesheet.css" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WpfTemplate\WpfTemplate.csproj">
