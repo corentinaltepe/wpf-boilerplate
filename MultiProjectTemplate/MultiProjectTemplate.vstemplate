@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>WPF (MVVM) &amp; Unit Test Project</Name>
+    <Description>Opens a WFP-MVVM project and a corresponding Unit Test project with all functionality included.</Description>
+    <Icon>MultiProjectTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>a225f6da-6fab-4551-a979-bf73be799755</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WpfApp</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+        WpfTemplate\ProjectTemplate1.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Test" CopyParameters="true">
+        UnitTestTemplate\UnitTestTemplate.vstemplate
+      </ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>
