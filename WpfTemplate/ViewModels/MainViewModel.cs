@@ -35,11 +35,11 @@ namespace $safeprojectname$.ViewModels
             // DialogService is used to handle dialogs
             this.DialogService = new MvvmDialogs.DialogService();
         }
-        
+
         #endregion
 
         #region Methods
-        
+
         #endregion
 
         #region Commands
@@ -52,9 +52,9 @@ namespace $safeprojectname$.ViewModels
         public ICommand ShowAboutDialogCmd { get { return new RelayCommand(OnShowAboutDialog, AlwaysTrue); } }
         public ICommand ExitCmd { get { return new RelayCommand(OnExitApp, AlwaysTrue); } }
 
-        private bool AlwaysTrue()   { return true; }
-        private bool AlwaysFalse()  { return false; }
-        
+        private bool AlwaysTrue() { return true; }
+        private bool AlwaysFalse() { return false; }
+
         private void OnSampleCmdWithArgument(object obj)
         {
             // TODO

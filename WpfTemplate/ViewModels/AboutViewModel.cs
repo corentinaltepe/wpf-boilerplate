@@ -15,10 +15,10 @@ namespace $safeprojectname$.ViewModels
         {
             get
             {
-                return "My Project" + Environment.NewLine +
-                        "Created by Author" + Environment.NewLine +
+                return "$safeprojectname$" + Environment.NewLine +
+                        "Created by $username$" + Environment.NewLine +
                         "Address" + Environment.NewLine +
-                        "Year";
+                        "$year$";
             }
         }
 
