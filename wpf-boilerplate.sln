@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Templates", "WPF.Templa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestTemplate", "UnitTestTemplate\UnitTestTemplate.csproj", "{B48E18CB-0F44-4E57-8335-1333481B5240}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiProjectTemplate", "MultiProjectTemplate\MultiProjectTemplate.csproj", "{628072C0-E0AD-46A8-AAF3-BF0A155DF127}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B48E18CB-0F44-4E57-8335-1333481B5240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B48E18CB-0F44-4E57-8335-1333481B5240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B48E18CB-0F44-4E57-8335-1333481B5240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628072C0-E0AD-46A8-AAF3-BF0A155DF127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628072C0-E0AD-46A8-AAF3-BF0A155DF127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628072C0-E0AD-46A8-AAF3-BF0A155DF127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628072C0-E0AD-46A8-AAF3-BF0A155DF127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
