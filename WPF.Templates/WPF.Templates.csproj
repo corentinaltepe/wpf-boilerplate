@@ -55,6 +55,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\UnitTestTemplate\UnitTestTemplate.csproj">
+      <Project>{B48E18CB-0F44-4E57-8335-1333481B5240}</Project>
+      <Name>UnitTestTemplate</Name>
+      <VSIXSubPath>ProjectTemplates</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\WpfTemplate\WpfTemplate.csproj">
       <Project>{5976BBB0-F9EF-412B-9DB9-EBDDE569B734}</Project>
       <Name>WpfTemplate</Name>

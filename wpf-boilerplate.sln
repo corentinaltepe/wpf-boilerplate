@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTemplate", "WpfTemplate\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Templates", "WPF.Templates\WPF.Templates.csproj", "{43AE6D24-EF11-4BB0-A35F-0CF29786919D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestTemplate", "UnitTestTemplate\UnitTestTemplate.csproj", "{B48E18CB-0F44-4E57-8335-1333481B5240}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{43AE6D24-EF11-4BB0-A35F-0CF29786919D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43AE6D24-EF11-4BB0-A35F-0CF29786919D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43AE6D24-EF11-4BB0-A35F-0CF29786919D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48E18CB-0F44-4E57-8335-1333481B5240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48E18CB-0F44-4E57-8335-1333481B5240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48E18CB-0F44-4E57-8335-1333481B5240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48E18CB-0F44-4E57-8335-1333481B5240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

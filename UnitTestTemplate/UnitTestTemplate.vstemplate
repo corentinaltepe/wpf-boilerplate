@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>UnitTest</Name>
+    <Description>MSTest Unit Test project with base class to report results and performance.</Description>
+    <Icon>UnitTestTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>4a1cff35-6766-45a4-89f3-6f9940d9bb8d</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>UnitTest</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">MainViewModelTest.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">TestBase.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">packages.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages repository="extension" repositoryId="VSIX.WpfTemplates.0ce80773-75d8-42e1-b658-f8f5d24c8b61">
+      <package id="Extended.Wpf.Toolkit" version="3.0" />
+      <package id="MvvmDialogs" version="4.0.0" />
+    </packages>
+  </WizardData>
+</VSTemplate>
