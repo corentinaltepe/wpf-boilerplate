@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTemplate", "WpfTemplate\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSIX", "VSIX\VSIX.csproj", "{43AE6D24-EF11-4BB0-A35F-0CF29786919D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject1", "MyProject1\MyProject1.csproj", "{8059F229-4113-4D8D-A346-9A4CD403D34A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{43AE6D24-EF11-4BB0-A35F-0CF29786919D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43AE6D24-EF11-4BB0-A35F-0CF29786919D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43AE6D24-EF11-4BB0-A35F-0CF29786919D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8059F229-4113-4D8D-A346-9A4CD403D34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8059F229-4113-4D8D-A346-9A4CD403D34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8059F229-4113-4D8D-A346-9A4CD403D34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8059F229-4113-4D8D-A346-9A4CD403D34A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
