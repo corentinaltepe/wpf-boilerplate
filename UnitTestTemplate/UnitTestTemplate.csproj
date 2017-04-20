@@ -70,12 +70,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="AssemblyInfo.cs" />
-    <None Include="ProjectTemplate.csproj" />
+    <None Include="ProjectTemplate.csproj">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="UnitTestTemplate.ico" />
   </ItemGroup>
   <ItemGroup>
     <VSTemplate Include="UnitTestTemplate.vstemplate">
-      <OutputSubPath>WPF</OutputSubPath>
+      <OutputSubPath>Test</OutputSubPath>
+      <SubType>Designer</SubType>
     </VSTemplate>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
-    <Name>UnitTest</Name>
+    <Name>Extended Unit Test Project (MSTest)</Name>
     <Description>MSTest Unit Test project with base class to report results and performance.</Description>
     <Icon>UnitTestTemplate.ico</Icon>
     <ProjectType>CSharp</ProjectType>
@@ -26,8 +26,8 @@
   </WizardExtension>
   <WizardData>
     <packages repository="extension" repositoryId="VSIX.WpfTemplates.0ce80773-75d8-42e1-b658-f8f5d24c8b61">
-      <package id="Extended.Wpf.Toolkit" version="3.0" />
-      <package id="MvvmDialogs" version="4.0.0" />
+      <package id="MSTest.TestAdapter" version="1.1.14" />
+      <package id="MSTest.TestFramework" version="1.1.14" />
     </packages>
   </WizardData>
 </VSTemplate>
