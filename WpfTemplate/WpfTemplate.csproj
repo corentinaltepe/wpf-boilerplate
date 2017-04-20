@@ -12,8 +12,8 @@
     <ProjectGuid>{5976BBB0-F9EF-412B-9DB9-EBDDE569B734}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProjectTemplate1</RootNamespace>
-    <AssemblyName>ProjectTemplate1</AssemblyName>
+    <RootNamespace>WpfTemplate</RootNamespace>
+    <AssemblyName>WpfTemplate</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>
@@ -54,6 +54,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
     <None Include="Views\About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
     </None>
@@ -65,15 +67,23 @@
     <None Include="ViewModels\ViewModelBase.cs" />
     <None Include="Utils\RelayCommand.cs" />
     <None Include="Models\SampleModel.cs" />
+    <None Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </None>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AssemblyInfo.cs" />
-    <None Include="ProjectTemplate.csproj" />
+    <None Include="ProjectTemplate.csproj">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="ProjectTemplate1.ico" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="ProjectTemplate1.vstemplate" />
+    <VSTemplate Include="ProjectTemplate1.vstemplate">
+      <OutputSubPath>WPF</OutputSubPath>
+      <SubType>Designer</SubType>
+    </VSTemplate>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls\" />
@@ -84,6 +94,12 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Views\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </None>

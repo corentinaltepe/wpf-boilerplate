@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyProject.Models
+namespace ProjectTemplate11.Models
 {
     class SampleModel
     {

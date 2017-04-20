@@ -14,6 +14,12 @@
   </TemplateData>
   <TemplateContent>
     <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      
       <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       <Folder Name="Controls" TargetFolderName="Controls"/>
       <Folder Name="Models" TargetFolderName="Models">
@@ -28,11 +34,21 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="ViewModelBase.cs">ViewModelBase.cs</ProjectItem>
       </Folder>
       <Folder Name="Views" TargetFolderName="Views">
-        <ProjectItem OpenInEditor="true" ReplaceParameters="true" TargetFileName="About.xaml">About.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="About.xaml">About.xaml</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="About.xaml.cs">About.xaml.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml">MainWindow.xaml</ProjectItem>
+        <ProjectItem OpenInEditor="true" ReplaceParameters="true" TargetFileName="MainWindow.xaml">MainWindow.xaml</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="MainWindow.xaml.cs">MainWindow.xaml.cs</ProjectItem>
       </Folder>
     </Project>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages repository="extension" repositoryId="VSIX.WpfTemplates.0ce80773-75d8-42e1-b658-f8f5d24c8b61">
+      <package id="Extended.Wpf.Toolkit" version="3.0" />
+      <package id="MvvmDialogs" version="4.0.0" />
+    </packages>
+  </WizardData>
 </VSTemplate>
