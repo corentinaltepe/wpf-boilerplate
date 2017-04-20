@@ -25,7 +25,7 @@ namespace $safeprojectname$.ViewModels
         /// </summary>
         public string Title
         {
-            get { return "MyProject1"; }
+            get { return "$safeprojectname$"; }
         }
         #endregion
 

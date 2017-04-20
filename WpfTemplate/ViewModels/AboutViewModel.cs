@@ -15,10 +15,10 @@ namespace $safeprojectname$.ViewModels
         {
             get
             {
-                return "My Project" + Environment.NewLine +
-                        "Created by Author" + Environment.NewLine +
+                return "$safeprojectname$" + Environment.NewLine +
+                        "Created by $username$" + Environment.NewLine +
                         "Address" + Environment.NewLine +
-                        "Year";
+                        "$year$";
             }
         }
 
@@ -32,7 +32,7 @@ namespace $safeprojectname$.ViewModels
                 // var ver2 = typeof(Assembly1.ClassOfAssembly1).Assembly.GetName().Version;
                 // var ver3 = typeof(Assembly2.ClassOfAssembly2).Assembly.GetName().Version;
 
-                return "MyProject1 v" + version1.ToString();
+                return "$safeprojectname$ v" + version1.ToString();
             }
         }
     }
