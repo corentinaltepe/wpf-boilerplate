@@ -56,6 +56,7 @@
     <Content Include="packages\MSTest.TestFramework.1.1.14.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="packages\log4net.2.0.8.nupkg" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
