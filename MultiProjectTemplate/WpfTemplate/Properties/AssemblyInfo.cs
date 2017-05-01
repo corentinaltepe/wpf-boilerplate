@@ -34,3 +34,6 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("0.1.*")]
 //[assembly: AssemblyFileVersion("1.0.0.0")]
+
+// App.config was added to enable Log4Net logger
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
