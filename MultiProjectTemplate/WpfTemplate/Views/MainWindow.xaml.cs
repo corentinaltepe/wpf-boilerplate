@@ -33,12 +33,14 @@ namespace $safeprojectname$.Views
 
         private void MainView_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            if (((MainViewModel)(this.DataContext)).DivePlan.IsModified)
-                if (!((MainViewModel)(this.DataContext)).PromptSaveDivePlan())
+            /*
+                if (((MainViewModel)(this.DataContext)).Data.IsModified)
+                if (!((MainViewModel)(this.DataContext)).PromptSaveBeforeExit())
                 {
                     e.Cancel = true;
                     return;
                 }
+            */
             Log.Info("Closing App");
         }
     }
