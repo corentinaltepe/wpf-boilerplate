@@ -1,4 +1,5 @@
 ﻿using MvvmDialogs;
+using log4net;
 using MvvmDialogs.FrameworkDialogs.OpenFile;
 using MvvmDialogs.FrameworkDialogs.SaveFile;
 using System;
@@ -8,6 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
 using System.Windows.Input;
 using System.Xml.Linq;
 using $safeprojectname$.Views;
@@ -74,6 +76,7 @@ namespace $safeprojectname$.ViewModels
             if (success == true)
             {
                 // Do something
+                Log.Info("Saving file: " + settings.FileName);
             }
         }
         private void OnSaveTest()
@@ -97,10 +100,12 @@ namespace $safeprojectname$.ViewModels
             if (success == true)
             {
                 // Do something
+                Log.Info("Opening file: " + settings.FileName);
             }
         }
         private void OnShowAboutDialog()
         {
+            Log.Info("Opening About dialog");
             AboutViewModel dialog = new AboutViewModel();
             var result = DialogService.ShowDialog<About>(this, dialog);
         }
